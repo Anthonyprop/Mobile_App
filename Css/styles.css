@@ -1,0 +1,73 @@
+/* Stylesheets for Shutterbugg Project for Chapter 5
+	Author: Pierre
+	Date: 5/31/19
+	Filename: styles.css
+*/
+
+.container {
+	max-width: 928px;
+}
+
+.main { 
+	height: 550px;
+	background-image: url(../image/intro.jpg);
+	background-size: cover;
+	padding-top: 30px;
+}
+
+.main h1 { 
+	font-family: 'Archivo', sans-serif;
+	font-size: 72px;
+	text-shadow: cyan 4px 2px 4px;
+	transition: text-shadow 2s;
+}
+
+.main h1:hover { 
+	text-shadow: darkblue 5px 3px 4px;
+}
+
+.main h2 { 
+	font-family: font-family: 'Rubik', sans-serif;
+	margin-bottom: 40px;
+}
+
+
+.main a { 
+	font-size: 24px;
+}
+
+.btn { 
+	background-color: cyan;
+	color: white;
+	border-radius: 32px;
+	padding: 10px 40px;
+}
+
+.section .row { 
+	padding-top: 50px;
+}
+
+.row h1 { 
+	font-family:'Roboto', sans-serif;
+}
+
+.row p { 
+	font-family: 'Lobster', cursive;
+	font-size: 36px;
+}
+
+#store { 
+padding: 30px 10px;
+text-align: center;
+border-bottom: 1px solid black;
+}
+
+.footer h1 {
+	font-size: 34px;
+	font-weight: bold;
+}
+
+
+
+
+
